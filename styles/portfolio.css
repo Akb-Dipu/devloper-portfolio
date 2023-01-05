@@ -3,14 +3,16 @@
     font-family: 'Open Sans', sans-serif;
 
 
+    
 }
-
+.section{
+ margin-top: 130px;       
+}
 .btn-primary {
     height: 64px;
-    width: 150px;
     border-radius: 5px;
     background: #FD6E0A;
-    font-family: 'Open Sans';
+   
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -117,4 +119,98 @@ color: #757575;
     font-weight: 700;
 font-size: 20px;
 color: #474747;
+}
+/* What I do */
+.section-title{
+    font-weight: 700;
+    margin-top: 130px;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.skills-container{
+    text-align: left;
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+color: #181818;
+padding-bottom: 20px;
+
+
+}
+.skill-des{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+}
+
+/* Resume Styles */
+.resume-title{
+    text-align: left;
+
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.title{
+    padding-top: 30px;
+    font-weight: 700;
+font-size: 25px;
+
+}
+.subtitle{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-bottom: 15px;
+
+}
+.description{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+padding-bottom: 30px;
+
+}
+.contact{
+    display: flex;
+    text-align: left;
+    padding: 130px 200px ;
+    gap: 117px;
+  
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact .section-title{
+   
+    text-align: left;
+
+}
+
+.contact input,textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding-left:18px 30px;
+}
+input{
+    height: 64px;
 }
